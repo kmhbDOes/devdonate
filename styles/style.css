@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 26, 95, 0.73)), url('../images/donation5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #FFF8F3; */
+    width: 100%;
+    height: 50vh;
+    padding-top: 300px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.btnprimary {
+
+    background-color: crimson;
+    color: wheat;
+    border: none;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.donatetoday {
+
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.sectiontitle1{
+    font-weight: 800;
+    font-size: 55px;
+}
+.btntk{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+}
+#b1, #b2, #b3, #b4, #b5{
+    height: 100px;
+    width: 140px;
+    border-radius: 9px;
+    font-size: 35px;
+    color: gray;
+    font-weight: 700;
+    border-style: none;
+
+} 
+
+button:hover{
+    background-color: rgb(221, 40, 76); 
+    box-shadow: 0 -4px 0 0 #09a9df;
+}
+.text-line {
+    text-align: center;
+    font-weight: 400;
+    
+    margin-top: 70px;
+    background-color: transparent;
+    color: #635b5b;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #635b5b 1px;
+    padding: 3px 10px;
+    width: 60%;
+}
+.donateplan{
+    margin-top: 30px;
+    text-align: center;
+ 
+    
+}
+.plancontainer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 0.1px;
+}
+
+.planp{
+    margin-top: 55px;
+    padding-right: 80%;
+}
+.plantitle{
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.donateplantitle{
+    text-align: center;
+}
+.plandetails{
+    margin-top: 13px;
+    text-align: left;
+    margin-right: 60px;
+    margin-bottom: 20px;
+
+}
+
+.plan1, .plan2, .plan3{
+    display: inline;
+    padding-left: 30px;
+    width: 40%;
+    height: 150%;
+    margin: 50px;
+    align-items: center;
+}
+
+.plan1{
+    background-color: bisque;
+}
+
+.plan2{
+    background-color: coral;
+}
+
+.plan3{
+    background-color: rgb(19, 121, 168);
+}
+.borderr{
+    border-radius: 7px;
+}
+
+.featurecontainer1{
+    display: flex;
+
+}
+.feature1{
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 120px ;
+    font-weight: 600;
+}
+.feature2{
+    margin-right: 120px;
+}
+
+#bc{
+    align-items: left;
+    height: 64px;
+    width: 200px;
+    background-color: rgb(221, 40, 76);
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.featurecontainer2{
+    display: flex;
+
+}
+.feature3{
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 120px ;
+    font-weight: 600;
+}
+.feature4{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 105px;
+}
+.getupdate{
+    text-align: center;
+    margin-top: 40px;
+}
+.foot{
+    background-color: rgb(13, 13, 36);
+    text-align: center;
+    height: 130px;
+}
+.foo{
+    padding-top: 40px;
+}
+.sb{
+    font-family: 'Pacifico', cursive;
+    color: blanchedalmond;
+}
+.si{
+    color: rgb(216, 128, 14);
+}
+.footertitle{
+    margin-bottom: 25px;
+    margin-top: 155px;
+}
+.foooterdescription{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* email box */
+
+.box{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  height: 10px;
+}
+.formbox{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+
+}
+.formbox input{
+    font-size: 28px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 143, 121);
+    margin-right: 2px;
+}
+.formbox button{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 30px;
+    background-color: #4769d8;
+    transition: .3s;
+}
+
+
