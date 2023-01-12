@@ -194,7 +194,7 @@ button:hover{
     height: 130px;
 }
 .foo{
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .sb{
     font-family: 'Pacifico', cursive;
@@ -251,3 +251,79 @@ button:hover{
 }
 
 
+@media screen and (max-width: 576px) {
+
+     .hide{
+        display: none;
+    }
+    .plancontainer{
+     
+        flex-direction: column;
+        margin: 5px;
+        /* padding: 20px 50px;        */
+    }
+    .donateplantitle{
+        font-size: 45px;
+    }
+    .plantitle,.plandetails{
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .planp{
+        padding-right: 0%;
+    }
+    .plan1, .plan2, .plan3{
+       width: auto;
+       height: auto;
+       justify-content: center;
+       padding: 0 4px;
+    }
+    .foot{
+        height: 100%;
+    }
+    .foo{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+        
+        
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+     .hide{
+        display: none;
+    }
+    .plancontainer{
+     
+        flex-direction: column;
+        margin: 5px;
+        /* padding: 20px 50px;        */
+    }
+    .donateplantitle{
+        font-size: 45px;
+    }
+    .plantitle,.plandetails{
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .planp{
+        padding-right: 0%;
+    }
+    .plan1, .plan2, .plan3{
+       width: auto;
+       height: auto;
+       padding: 0 4px;
+    }
+    .foot{
+        height: 100%;
+    }
+    .foo{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+        
+    
+}
